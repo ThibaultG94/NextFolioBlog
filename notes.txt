@@ -1,4 +1,7 @@
-Site Portfolio / Blog ???
 Coder un bot, qui cherche chaque semaine les nouvelles news sur des sujets particuliers
 Exemple : HTML, CSS, JavaScript, Node, React, Next, ChatGPT, Vercel, ect...
 SEO TRES IMPORTANT
+
+Les fichiers error.js, loading.js et layout.js peuvent être 
+dans chaque dossier de pages (portfolio, blog...) ou en unique pour toutes les pages
+dans le dossier app.
