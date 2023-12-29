@@ -1,0 +1,4 @@
+Site Portfolio / Blog ???
+Coder un bot, qui cherche chaque semaine les nouvelles news sur des sujets particuliers
+Exemple : HTML, CSS, JavaScript, Node, React, Next, ChatGPT, Vercel, ect...
+SEO TRES IMPORTANT
