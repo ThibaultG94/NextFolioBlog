@@ -1,4 +1,4 @@
 export default function Loading() {
-	// You can add any UI inside Loading, including a Skeleton.
-	// return <LoadingSkeleton />;
+	// Or a custom loading skeleton component
+	return <p>Loading...</p>;
 }
