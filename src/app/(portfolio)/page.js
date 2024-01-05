@@ -1,8 +1,8 @@
-import Header from '../_components/Header';
+import Header from '../_components/_header/Header';
 
 export default function Portfolio() {
 	return (
-		<div className="w-full m-auto">
+		<div className="container">
 			<Header />
 		</div>
 	);
