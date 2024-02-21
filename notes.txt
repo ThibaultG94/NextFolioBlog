@@ -5,3 +5,7 @@ SEO TRES IMPORTANT
 Les fichiers error.js, loading.js et layout.js peuvent être 
 dans chaque dossier de pages (portfolio, blog...) ou en unique pour toutes les pages
 dans le dossier app.
+
+1. Redux: getStaticProps ou getServerSideProps
+2. CMS: NextAuth.js + CMS headless (Contentful, Strapi, ou Sanity pour gérer le contenu de ton blog)
+3. use client (window / document)

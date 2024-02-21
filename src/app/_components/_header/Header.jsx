@@ -1,11 +1,8 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import React from 'react';
 import Navigation from './Navigation';
 import '../../../../styles/header.scss';
-import Link from 'next/link';
-import DesktopIcon from './DesktopIcon';
 import Logo from './Logo';
 import SocialMedias from './SocialMedias';
 

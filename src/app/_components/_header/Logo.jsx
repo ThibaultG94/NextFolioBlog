@@ -1,20 +1,22 @@
 import Link from 'next/link';
-import React from 'react';
 import DesktopIcon from './DesktopIcon';
 
 const Logo = ({ linkStyle, pathname }) => {
+	const isActive = pathname === '/';
+
 	return (
 		<div className="logo">
-			<li className={linkStyle}>
+			<div className={linkStyle}>
 				<Link
-					className={`${
-						pathname === '/' ? 'active-link flex' : 'flex'
-					}`}
+					className={`${isActive ? 'active-link flex' : 'flex'}`}
 					href="/">
-					<DesktopIcon />
+					<DesktopIcon
+						className={'w-6 h-6'}
+						stroke={'currentColor'}
+					/>
 					<span className="ml-2 text-xl">Thibault Guilhem</span>
 				</Link>
-			</li>
+			</div>
 		</div>
 	);
 };

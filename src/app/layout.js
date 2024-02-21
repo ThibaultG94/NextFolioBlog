@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import '../../styles/globals.scss';
+import Header from './_components/_header/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,7 +27,10 @@ export default function RootLayout({ children }) {
 				<meta property="og:type" content="website" />
 				<title>{metadata.title}</title>
 			</head>
-			<body className={inter.className}>{children}</body>
+			<body className={inter.className}>
+				<Header />
+				{children}
+			</body>
 		</html>
 	);
 }
