@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Navigation = ({ activeLinkStyle, linkStyle, pathname }) => {
+const Navigation = ({ linkStyle, pathname }) => {
 	const isActive = pathname === '/blog';
 
 	return (

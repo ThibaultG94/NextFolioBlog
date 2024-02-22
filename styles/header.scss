@@ -3,8 +3,7 @@
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 1fr;
 	grid-column-gap: 2rem;
-	padding: 1rem;
-	padding-top: 2rem;
+	padding: 1rem 3rem;
 
 	@media screen and (max-width: 768px) {
 		display: grid;
@@ -69,5 +68,18 @@
 	@media screen and (max-width: 768px) {
 		align-items: center;
 		grid-area: 1 / 4 / 2 / 6;
+	}
+}
+
+.socials-icon {
+	transition: 0.3s ease;
+	color: white;
+	border-radius: 50px;
+	font-size: 3rem;
+	padding: 8px;
+	&:hover {
+		background-color: #212d45;
+		transform: scale(1.2);
+		cursor: pointer;
 	}
 }
