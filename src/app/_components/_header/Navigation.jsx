@@ -24,7 +24,7 @@ const Navigation = ({ linkStyle, pathname }) => {
 				<Link
 					className={`${isActive ? 'active-link' : ''}`}
 					href="/blog">
-					<i class="fas fa-blog"></i>
+					{/* <i className="fas fa-blog"></i> */}
 					<span className="pl-2 text-xl">Blog</span>
 				</Link>
 			</div>
