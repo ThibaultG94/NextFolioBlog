@@ -7,17 +7,23 @@ const Navigation = ({ linkStyle, pathname }) => {
 		<nav className="navigation">
 			<div className={linkStyle}>
 				<Link href="#projects">
-					<span className="text-xl">Projets</span>
+					<span className="text-xl text-gray-400 hover:text-white">
+						Projets
+					</span>
 				</Link>
 			</div>
 			<div className={linkStyle}>
 				<Link href="#technologies">
-					<span className="text-xl">Technos</span>
+					<span className="text-xl text-gray-400 hover:text-white">
+						Technos
+					</span>
 				</Link>
 			</div>
 			<div className={linkStyle}>
 				<Link href="#about">
-					<span className="text-xl">À propos</span>
+					<span className="text-xl text-gray-400 hover:text-white">
+						À propos
+					</span>
 				</Link>
 			</div>
 			<div className={linkStyle}>
@@ -25,7 +31,9 @@ const Navigation = ({ linkStyle, pathname }) => {
 					className={`${isActive ? 'active-link' : ''}`}
 					href="/blog">
 					{/* <i className="fas fa-blog"></i> */}
-					<span className="pl-2 text-xl">Blog</span>
+					<span className="pl-2 text-xl text-gray-400 hover:text-white">
+						Blog
+					</span>
 				</Link>
 			</div>
 		</nav>

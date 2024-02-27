@@ -8,7 +8,7 @@ import SocialMedias from './SocialMedias';
 
 const Header = () => {
 	const pathname = usePathname();
-	const linkStyle = 'flex items-center text-white mb-5';
+	const linkStyle = 'flex items-center mb-5';
 
 	return (
 		<header className="header">
