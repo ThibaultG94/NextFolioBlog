@@ -14,7 +14,7 @@ const Logo = ({ linkStyle, pathname }) => {
 						className={'w-6 h-6'}
 						stroke={'currentColor'}
 					/>
-					<span className="ml-2 text-xl font-normal">
+					<span className="ml-2 text-base md:text-xl font-normal">
 						Thibault Guilhem
 					</span>
 				</Link>
